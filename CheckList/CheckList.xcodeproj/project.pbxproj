@@ -12,6 +12,10 @@
 		853DA0A81BCC938F002B2C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853DA0A61BCC938F002B2C91 /* Main.storyboard */; };
 		853DA0AA1BCC938F002B2C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853DA0A91BCC938F002B2C91 /* Assets.xcassets */; };
 		853DA0AD1BCC938F002B2C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853DA0AB1BCC938F002B2C91 /* LaunchScreen.storyboard */; };
+		8590BCF31BCCDA6C0017F56F /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BCF21BCCDA6C0017F56F /* AddItemViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8590BCF51BCCDF070017F56F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BCF41BCCDF070017F56F /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8590BCFB1BCE13640017F56F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BCFA1BCE13640017F56F /* TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8590BCFD1BCE41EC0017F56F /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BCFC1BCE41EC0017F56F /* StatsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		853DA0A91BCC938F002B2C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853DA0AC1BCC938F002B2C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853DA0AE1BCC938F002B2C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8590BCF21BCCDA6C0017F56F /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		8590BCF41BCCDF070017F56F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8590BCFA1BCE13640017F56F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8590BCFC1BCE41EC0017F56F /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				853DA0A21BCC938F002B2C91 /* AppDelegate.swift */,
 				853DA0A41BCC938F002B2C91 /* ViewController.swift */,
+				8590BCF41BCCDF070017F56F /* TableViewController.swift */,
 				853DA0A61BCC938F002B2C91 /* Main.storyboard */,
+				8590BCFC1BCE41EC0017F56F /* StatsViewController.swift */,
+				8590BCFA1BCE13640017F56F /* TableViewCell.swift */,
+				8590BCF21BCCDA6C0017F56F /* AddItemViewController.swift */,
 				853DA0A91BCC938F002B2C91 /* Assets.xcassets */,
 				853DA0AB1BCC938F002B2C91 /* LaunchScreen.storyboard */,
 				853DA0AE1BCC938F002B2C91 /* Info.plist */,
@@ -134,8 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8590BCFB1BCE13640017F56F /* TableViewCell.swift in Sources */,
 				853DA0A51BCC938F002B2C91 /* ViewController.swift in Sources */,
 				853DA0A31BCC938F002B2C91 /* AppDelegate.swift in Sources */,
+				8590BCF31BCCDA6C0017F56F /* AddItemViewController.swift in Sources */,
+				8590BCFD1BCE41EC0017F56F /* StatsViewController.swift in Sources */,
+				8590BCF51BCCDF070017F56F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 				853DA0B31BCC938F002B2C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
